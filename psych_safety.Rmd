@@ -20,13 +20,13 @@ options(htmltools.dir.version = FALSE)
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
-style_duo_accent(
-  primary_color = "#1381B0",
-  secondary_color = "#FF961C",
-  inverse_header_color = "#FFFFFF",
-  text_font_size = "28px",
-  footnote_font_size = "20px"
-
+mono_light(
+    base_color = "midnightblue",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Droid Mono"),
+  link_color = "deepskyblue1",
+  text_font_size = "28px"
 )
 ```
 
@@ -41,7 +41,7 @@ class: center, middle, inverse
 ---
 # Why Aren't My Students Asking Questions?
 
-- A lack of psychological safety in your learning situation
+- A lack of psychological safety in your learning environment
 - Don't take it personally
 
 ---
