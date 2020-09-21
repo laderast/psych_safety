@@ -18,20 +18,20 @@
  *  Version: 0.3.0
  *
  * ------------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Cabin:600,600i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,300i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Droid+Mono&display=swap);
 
 
 :root {
   /* Fonts */
-  --text-font-family: 'Noto Sans';
+  --text-font-family: Montserrat;
   --text-font-is-google: 1;
   --text-font-family-fallback: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial;
   --text-font-base: sans-serif;
-  --header-font-family: Cabin;
+  --header-font-family: 'Josefin Sans';
   --header-font-is-google: 1;
-  --code-font-family: 'Source Code Pro';
+  --code-font-family: 'Droid Mono';
   --code-font-is-google: 1;
   --base-font-size: 20px;
   --text-font-size: 28px;
@@ -42,23 +42,22 @@
   --header-h3-font-size: 1.75rem;
 
   /* Colors */
-  --text-color: #000000;
-  --header-color: #1381B0;
-  --background-color: #FFFFFF;
-  --link-color: #1381B0;
-  --text-bold-color: #1381B0;
+  --text-color: #11114E;
+  --header-color: midnightblue;
+  --background-color: #E8E8F0;
+  --link-color: deepskyblue1;
+  --text-bold-color: midnightblue;
   --code-highlight-color: rgba(255,255,0,0.5);
-  --inverse-text-color: #000000;
-  --inverse-background-color: #FF961C;
-  --inverse-header-color: #FFFFFF;
-  --title-slide-background-color: #1381B0;
-  --title-slide-text-color: #000000;
-  --header-background-color: #1381B0;
-  --header-background-text-color: #FFFFFF;
-  --primary: #1381B0;
-  --secondary: #FF961C;
-  --white: #FFFFFF;
-  --black: #000000;
+  --inverse-text-color: #E8E8F0;
+  --inverse-background-color: midnightblue;
+  --inverse-header-color: #E8E8F0;
+  --title-slide-background-color: midnightblue;
+  --title-slide-text-color: #E8E8F0;
+  --header-background-color: midnightblue;
+  --header-background-text-color: #E8E8F0;
+  --base: midnightblue;
+  --white: #E8E8F0;
+  --black: #11114E;
 }
 
 html {
@@ -67,7 +66,7 @@ html {
 
 body {
   font-family: var(--text-font-family), var(--text-font-family-fallback), var(--text-font-base);
-  font-weight: normal;
+  font-weight: 300;
   color: var(--text-color);
 }
 h1, h2, h3 {
@@ -99,10 +98,10 @@ h1, h2, h3 {
 }
 .remark-inline-code {
   font-size: var(--code-inline-font-size);
-  color: #1381B0;
+  color: midnightblue;
 }
 .remark-slide-number {
-  color: #1381B0;
+  color: midnightblue;
   opacity: 1;
   font-size: 0.9em;
 }
@@ -115,7 +114,7 @@ a, a > code {
   position: absolute;
   bottom: 60px;
   padding-right: 4em;
-  font-size: 20px;
+  font-size: 0.9em;
 }
 .remark-code-line-highlighted {
   background-color: var(--code-highlight-color);
@@ -144,10 +143,10 @@ a, a > code {
   float: left;
 }
 .left-column h2, .left-column h3 {
-  color: #1381B099;
+  color: midnightblue99;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
-  color: #1381B0;
+  color: midnightblue;
 }
 .right-column {
   width: 75%;
@@ -169,7 +168,7 @@ img, video, iframe {
   max-width: 100%;
 }
 blockquote {
-  border-left: solid 5px #FF961C80;
+  border-left: solid 5px midnightblue80;
   padding-left: 1em;
 }
 .remark-slide table {
@@ -184,7 +183,7 @@ th, td {
   padding: 5px;
 }
 .remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) {
-  background: #FFEAD1;
+  background: #D1D1E2;
 }
 table.dataTable tbody {
   background-color: var(--background-color);
@@ -194,7 +193,7 @@ table.dataTable.display tbody tr.odd {
   background-color: var(--background-color);
 }
 table.dataTable.display tbody tr.even {
-  background-color: #FFEAD1;
+  background-color: #D1D1E2;
 }
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.5);
@@ -234,17 +233,11 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   }
 }
 
-.primary {
-  color: var(--primary);
+.base {
+  color: var(--base);
 }
-.bg-primary {
-  background-color: var(--primary);
-}
-.secondary {
-  color: var(--secondary);
-}
-.bg-secondary {
-  background-color: var(--secondary);
+.bg-base {
+  background-color: var(--base);
 }
 .white {
   color: var(--white);
