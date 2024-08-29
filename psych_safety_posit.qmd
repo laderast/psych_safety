@@ -1,0 +1,169 @@
+---
+title: "Psychological Safety"
+subtitle: "Posit Academy: Mentors on Mentoring"
+author: 
+  - "Ted Laderas, PhD"
+date: August 29, 2024
+format: 
+  revealjs:
+    theme: sky
+    incremental: true
+---
+
+# Be Aware of What your Students are Going Through
+
+## Why Aren't My Students Asking Questions?
+
+- A lack of psychological safety in your learning environment
+- Don't take it personally
+
+## What is Psychological Safety?
+
+What is psychological safety? Kahn defines it as:
+
+> Psychological safety is being able to show and employ one's self without fear of negative consequences of self-image, status or career.
+
+Kahn, [Psychological Engagement of Personal Engagement and Disengagement from Work](https://journals.aom.org/doi/abs/10.5465/256287]) 
+
+## Roleplaying Exercise (3 minutes)
+
+Think about a class where you were reluctant to ask a question. 
+
+- What was it about the situation that made you reluctant?
+- Did you feel valued in that situation?
+- Were there any previous statements or behavior from faculty or other students that made you reluctant?
+
+
+## Medical Teams Make Mistakes
+
+Why did the medical groups that have a psychologically safe culture make more errors?
+
+> They didn't make more errors, they just felt comfortable reporting them.
+
+## Psychological Safety is Critical
+
+Number 1 predictor of a team's success, and student success
+
+## Stereotype Threat
+
+> Reminding people of negative stereotypes, even in subtle ways, can make them anxious about the risk of confirming those stereotypes, in turn reducing their performance. - [Carpentries Instructor Training](https://carpentries.github.io/instructor-training/08-motivation/index.html)
+
+<https://www.apa.org/research/action/stereotype>
+
+# A Psychologically Safe Classroom is an Inclusive Classroom
+
+## Discussion: What happens in your groups?
+
+- Adult learners are very hard on themselves
+- High expectations, frustration when they don't immediately get something
+- What have you noticed in your groups?
+
+
+## Changing Norms is Hard
+
+- Org Culture drives a lot of our responses
+
+::::{.columns}
+:::{.column}
+- Cultures w/ Growth Mindset
+- Focus on improvement
+:::
+
+:::{.column}
+- Cultures w/ Fixed Mindset
+- Focus on talent
+:::
+::::
+
+:::{.incremental}
+## What steps can you take?
+
+- Model learning behavior
+  - Make mistakes, admit when you don't know
+- Reward questions
+- Give Space for Others to Talk
+- Wise Feedback
+- Code of Conduct
+
+:::
+
+## It's not you
+
+> Sometimes a subject is just intrinsically hard, it's no reflection on your own abilities.
+
+- Sometimes I express admiration for their willingess to learn. It's hard to be an adult learner!
+
+
+## Wise Feedback/Critiques
+
+- Establish an atmosphere of trust
+- Give context: preface feedback with your intention of helping them improve
+  - “I have high standards, and I know you can meet them.”
+- Ask what kind of feedback they want, and stick to it
+  - Establish boundaries
+
+<https://sparq.stanford.edu/solutions/wise-critiques-help-students-succeed>
+
+# What Are Other Strategies You've Used?
+
+
+## Establish a Class Code of Conduct
+
+A **code of conduct** defines what is *expected/acceptable* and *unacceptable behavior* in the classroom in order to make the class a psychologically safe space for learning. 
+
+- Defines values
+- Defines unacceptable behavior
+- Defines consequences
+
+## Define Values
+
+> A primary goal of BioData Club is to be inclusive and of value to the largest number of contributors, with the most varied and diverse backgrounds possible. **As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of age, gender, gender identity or expression, culture, ethnicity, language, national origin, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, and technical ability.** We will not tolerate discrimination based on any of the protected characteristics above, including participants with disabilities.
+
+
+[BioData Club Code of Conduct](https://biodata-club.github.io/code_of_conduct)
+
+## Define Expected/Acceptable Behavior
+
+- Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
+- Exercise consideration and respect in your speech and actions.
+- Attempt collaboration before conflict.
+
+# Define Unacceptable behavior
+
+Harassment includes, but is not limited to:
+
+- Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, age, regional discrimination, political or religious affiliation
+- Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment
+
+
+## Establish Consequences/Communications Channel
+
+- Needs an Anonymous Reporting Channel - perhaps a form
+- Different levels of violations
+    - Ask student to leave session
+- Actions should focus on safety of reporters
+- [Enforcing code of conduct](https://www.slideshare.net/aeschright/enforcing-your-code-of-conduct-effective-incident-response)
+    
+
+## Have an External Contact
+
+- Useful if students are reluctant to contact you
+- Should be someone who can talk to you about difficult issues
+
+## Having a Code of Conduct makes an inclusive space
+
+- Sets the tone for your course
+- Establishes your course as a safe space
+- Enforce consequences, emphasize safety of reporters
+
+
+## References
+
+- [The Right Kind of Wrong: The Science of Failing Well (Amy Edmondson)](https://www.hbs.edu/faculty/Pages/item.aspx?num=64186)
+- [Cultures of Growth (Mary Murphy)](https://marycmurphy.com/cultures-of-growth/)
+- [rOpenSci Community Call: Codes of Conduct](https://ropensci.org/blog/2016/12/21/commcallv12-review-coc/)
+- [Modeling Mistakes in the Classroom](https://www.gettingsmart.com/2016/09/modeling-mistakes-and-creating-trust-in-the-classroom/)
+- [Carpentries Instructor Training: Motivation](https://carpentries.github.io/instructor-training/08-motivation/index.html)
+- [Carpentries Instructor Training: Managing a Diverse Classroom](https://carpentries.github.io/instructor-training/18-management/index.html)
+- [Enforcing your Code of Conduct](https://www.slideshare.net/aeschright/enforcing-your-code-of-conduct-effective-incident-response)
+- [BioData Club Code of Conduct](https://biodata-club.github.io/code_of_conduct)
